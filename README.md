@@ -22,4 +22,16 @@
 [7] คลิก `Create Repository`  
 
 
+## 2. Clone repository ใน Visual Studio
+
+2.1 เรียกโปรแกรม Visual Studio ขึ้นมา
+
+<img src = "./Pictures/Lab5-02.png" align = "center">
+
+
+2.2 ในหน้าต่างแรกจะปรากฏชื่อ project ที่เคยเปิด ในกรณีนี้ เราจะทดลองเรื่องการ clone repository นักศึกษาทีทางเลือกได้ 2 ทางคือ
+
+1. เลือก `Clone a repository` หรือ  
+2. เลือก `Continuw without code`
+
 
