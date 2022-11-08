@@ -2,7 +2,7 @@
 
 # การใช้งาน git ร่วมกับ Visual studio IDE #
 
-## 1.  การ clone จาก repository ด้วย Visual Studio
+## 1.  สร้าง repository ใหม่บน github.com
 
  1.1 สร้าง repository บน GitHub.com โดยมีรายละเอียดดังนี้
     <ul>
