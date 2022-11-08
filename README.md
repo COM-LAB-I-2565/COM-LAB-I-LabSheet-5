@@ -21,6 +21,7 @@
 [6] เลือก VisualStudio  
 [7] คลิก `Create Repository`  
 
+### *** อย่าเพิ่งปิด web browser เราจะกลับมาที่นี่อีกครั้งเร็วๆ นี้ ###
 
 ## 2. Clone repository ใน Visual Studio
 
@@ -29,10 +30,10 @@
 <img src = "./Pictures/Lab5-02.png" align = "center">
 
 
-2.2 ในหน้าต่างแรกจะปรากฏชื่อ project ที่เคยเปิด  ในกรณีนี้ เราจะทดลองเรื่องการ clone repository นักศึกษาทีทางเลือกได้ 2 ทางคือ
+2.2 ในหน้าต่างแรกจะปรากฏชื่อ project ที่เคยเปิด และปุ่มอีก 4 ปุ่ม ในกรณีนี้ เราจะทดลองเรื่องการ clone repository นักศึกษาทีทางเลือกได้ 2 ทางคือ
 
-1. เลือก `Clone a repository` หรือ  
-2. เลือก `Continue without code` ถ้าเลือกทางเลือกนี้ เราสามารถ clone repositpry ได้จากเมนู Git  ในหน้าต่าง Visual Studio
+A. เลือก `Clone a repository` หรือ  
+B. เลือก `Continue without code` ถ้าเลือกทางเลือกนี้ เราสามารถ clone repositpry ได้จากเมนู Git  ในหน้าต่าง Visual Studio
 
 ทั้งสองทางเลือก จะนำไปสู่หน้าต่างเดียวกันคือหน้าต่าง `Clone a repository` ดัวรูปที่ 3
 
@@ -40,6 +41,70 @@
 <img src = "./Pictures/Lab5-03.png" align = "center">
 
 
+2.3 กลับไปที่หน้าต่าง repository ที่สร้างในข้อ 1.1 
+
+
+<img src = "./Pictures/Lab5-04.png" align = "center">
+
+คัดลอก url ของ repo ไว้ใน clipboard (คลิกตาม `<---[1]` และ `<---[2]`)
+
+
+
+นำ url มาใส่ในหน้าต่าง Clone a repository ของ Visual Studio ดังรูปด้านล่างนี้ แล้วคลิก Clone 
+
+<img src = "./Pictures/Lab5-05.png" align = "center">
+
+
+Visual studio จะเปิดหน้าต่างหลักขึ้นมา และมีการเชื่อมโยงกับ  Repository ที่เรา clone มาแล้ว สังเกตุได้จากที่มุมขวาล่างของหน้าต่าง Visual studio
+
+<img src = "./Pictures/Lab5-06.png" align = "center">
+
+ 
+
+## 3. สร้าง Windows Form Application และส่งขึ้นไปเก็บบน github.com
+
+3.1  สร้างโปรเจคใหม่
+
+<img src = "./Pictures/Lab5-07.png" align = "center">
+
+
+คลิกที่เมนู `File` -> `New` -> `Project...`  
+
+3.2 เลือกชนิด project
+
+<img src = "./Pictures/Lab5-08.png" align = "center">
+
+3.3 ตั้งชื่อและ  path ของ project
+
+#### *** อย่าลิมเลือก path ให้ถูกต้อง นั่นคือต้องอยู่ใน folder ที่ clone มา (working directory) ####
+
+
+<img src = "./Pictures/Lab5-09.png" align = "center">
+
+
+3.4 เมื่อกดปุ่ม `Create` Visual Studio จะสร้าง Project พร้อมทั้งติดตามการเปลี่ยนแปลงของไฟล์ต่างๆ ให้เราด้วย 
+
+โดยที่ส่วนต่าง ๆ สำหรับการสร้าง Application ยังคงเหมือนเดิม
+
+<img src = "./Pictures/Lab5-10.png" align = "center">
+
+
+3.5 หน้าต่าง Git Changes จะบอกถึงจำนวนไฟล์ที่มีการเปลี่ยนแปลง 
+
+ในกรณีนี้ เราสร้าง project ใหม่ ทำให้มีไฟล์ใหม่จำนวนเยอะมาก (ปกติเราจะแก้ไข source code ครั้งละจำนวนไม่มากนัก)
+
+<img src = "./Pictures/Lab5-11.png" align = "center">
+
+
+จากรูป 
+
+[1] คือ branch ปัจจุบัน ชื่อว่า `main` ซึ่งจะปรากฏในแถบ status bar ด้้านล่างด้วย (ตามเส้นประสีส้ม)
+
+[2] คือ edit box ที่ให้ใส่ข้อความ commit
+
+[3] คือ ไฟล์ที่มีการเปลี่ยนแปลงหลังจากการ commit ครั้งล่าสุด 
+
+[4] คือ git status อย่างย่อของ repositpry นี้
 
 
 
