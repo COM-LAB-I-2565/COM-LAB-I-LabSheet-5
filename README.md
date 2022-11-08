@@ -29,9 +29,17 @@
 <img src = "./Pictures/Lab5-02.png" align = "center">
 
 
-2.2 ในหน้าต่างแรกจะปรากฏชื่อ project ที่เคยเปิด ในกรณีนี้ เราจะทดลองเรื่องการ clone repository นักศึกษาทีทางเลือกได้ 2 ทางคือ
+2.2 ในหน้าต่างแรกจะปรากฏชื่อ project ที่เคยเปิด  ในกรณีนี้ เราจะทดลองเรื่องการ clone repository นักศึกษาทีทางเลือกได้ 2 ทางคือ
 
 1. เลือก `Clone a repository` หรือ  
-2. เลือก `Continuw without code`
+2. เลือก `Continue without code` ถ้าเลือกทางเลือกนี้ เราสามารถ clone repositpry ได้จากเมนู Git  ในหน้าต่าง Visual Studio
+
+ทั้งสองทางเลือก จะนำไปสู่หน้าต่างเดียวกันคือหน้าต่าง `Clone a repository` ดัวรูปที่ 3
+
+
+<img src = "./Pictures/Lab5-03.png" align = "center">
+
+
+
 
 
