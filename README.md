@@ -13,8 +13,13 @@
 
 <img src = "./Pictures/Lab5-01.png" align = "center">
 
-[1] ตั้งชื่อ repository
-[2] เลือก Public
-[3] เลือก Add a README file
+[1] ตั้งชื่อ repository  
+[2] เลือก Public  
+[3] เลือก Add a README file  
+[4] คลิก .gitignore template  
+[5] ค้นหาโดยพิมพ์ visual  
+[6] เลือก VisualStudio  
+[7] คลิก `Create Repository`  
+
 
 
