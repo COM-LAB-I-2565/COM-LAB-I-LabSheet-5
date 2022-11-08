@@ -107,4 +107,29 @@ Visual studio จะเปิดหน้าต่างหลักขึ้น
 [4] คือ git status อย่างย่อของ repositpry นี้
 
 
+3.6 เพิ่มข้อความ commit ใน  [2] แล้วกด `Commit All`
+
+ซึ่งถ้าเป็น command line  เราจะสั่ง `git commit -m "message"` นั่นเอง
+
+โดยปกถ้าเป็น commit แรกจะนิยมใช้ `"initial commit"`
+
+<img src = "./Pictures/Lab5-12.png" align = "center">
+
+
+3.7 กลับไปตรวจสอบ repo บน web browser
+
+<img src = "./Pictures/Lab5-13.png" align = "center">
+
+
+3.8 ทำการ push การเปลี่ยนแปลงขึ้นบน github.com
+
+<img src = "./Pictures/Lab5-14.png" align = "center">
+
+3.9 กลับไปตรวจสอบ repo บน web browser อีกครั้ง
+
+<img src = "./Pictures/Lab5-15.png" align = "center">
+
+จะพบว่ามีการนำ folder ของ project ขึ้นไปเก็บบน github เรียบร้อยแล้ว 
+
+และ visual studio ก็ทำการติดตามไฟล์ที่เราเปลี่ยนที่ local ให้ด้วย
 
